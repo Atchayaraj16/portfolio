@@ -130,7 +130,11 @@ This is a modern full-stack web application built as a personal portfolio websit
 - `npm run db:push`: Database schema synchronization
 
 ## Changelog
-- June 29, 2025. Initial setup
+- June 29, 2025: Initial setup
+- June 29, 2025: Added 4 project screenshots (Todo List, Guess Game, MERN Stack, Calculator)
+- June 29, 2025: Updated hero section to highlight workshop organizing experience with Daksh team
+- June 29, 2025: Replaced education stats with workshop organizer achievements
+- June 29, 2025: Portfolio ready for deployment
 
 ## User Preferences
 
