@@ -186,25 +186,22 @@ export default function Portfolio() {
               </div>
             </div>
 
-            {/* Profile Card */}
+            {/* Experience Card */}
             <div className="flex justify-center">
               <Card className="bg-white/10 backdrop-blur-lg border-white/20 text-white max-w-sm">
                 <CardContent className="p-8 text-center">
                   <div className="w-32 h-32 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <GraduationCap className="w-16 h-16 text-white" />
+                    <User className="w-16 h-16 text-white" />
                   </div>
-                  <div className="grid grid-cols-3 gap-6">
+                  <div className="space-y-4">
                     <div>
-                      <div className="text-2xl font-bold">96%</div>
-                      <div className="text-sm text-white/80">HSC</div>
+                      <div className="text-xl font-bold mb-2">Workshop Organizer</div>
+                      <div className="text-sm text-white/80">Active member of Daksh workshop team</div>
                     </div>
-                    <div>
-                      <div className="text-2xl font-bold">92.6%</div>
-                      <div className="text-sm text-white/80">SSLC</div>
-                    </div>
-                    <div>
-                      <div className="text-2xl font-bold">B.Tech</div>
-                      <div className="text-sm text-white/80">CSE</div>
+                    <div className="border-t border-white/20 pt-4">
+                      <div className="text-sm text-white/90">
+                        Organized multiple workshops and events, helping students learn new technologies and skills
+                      </div>
                     </div>
                   </div>
                 </CardContent>
@@ -237,12 +234,12 @@ export default function Portfolio() {
                 <div className="mb-6">
                   <h4 className="text-lg font-semibold mb-3 text-purple-600 flex items-center gap-2">
                     <GraduationCap className="w-5 h-5" />
-                    Education
+                    Education & Experience
                   </h4>
                   <div className="space-y-2">
                     <p><strong>B.Tech in CSE</strong> - SASTRA University</p>
-                    <p><strong>HSC</strong> - 96%</p>
-                    <p><strong>SSLC</strong> - 92.6%</p>
+                    <p><strong>Workshop Organizer</strong> - Active member of Daksh workshop team</p>
+                    <p><strong>Leadership</strong> - Organized multiple workshops and events</p>
                   </div>
                 </div>
 
