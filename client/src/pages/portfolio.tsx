@@ -359,6 +359,7 @@ export default function Portfolio() {
                 
                 <div className="space-y-6">
                   {[
+                    
                     { name: 'Node.js', percentage: 80, color: '#339933' },
                     { name: 'Express.js', percentage: 75, color: '#4db33d' },
                     { name: 'MongoDB', percentage: 70, color: '#4db33d' }
